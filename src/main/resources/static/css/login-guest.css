@@ -5,12 +5,14 @@
     justify-content: center;
     width: 100%;
 }
+
 .android .div {
     background-color: #ffffff;
     width: 360px;
     height: 779.5px;
     position: relative;
 }
+
 .android .view {
     position: absolute;
     width: 332px;
@@ -18,11 +20,13 @@
     top: 497px;
     left: 15px;
 }
+
 .android .overlap-group {
     position: relative;
     width: 330px;
     height: 50px;
 }
+
 .android .rectangle {
     position: absolute;
     width: 330px;
@@ -34,6 +38,7 @@
     border: 1px solid;
     border-color: #999999;
 }
+
 .android .text-wrapper {
     width: 311px;
     height: 49px;
@@ -49,9 +54,96 @@
     line-height: 50px;
     white-space: nowrap;
 }
+
 .android .view-2 {
     position: absolute;
     width: 330px;
     height: 106px;
     top: 380px;
+    left: 15px;
+}
+
+.android .overlap-group-wrapper {
+    position: absolute;
+    width: 332px;
+    height: 50px;
+    top: 56px;
+    left: 0;
+}
+
+.android .rectangle-2 {
+    position: absolute;
+    width: 330px;
+    height: 49px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #999999;
+}
+
+.android .text-wrapper-2 {
+    position: absolute;
+    width: 311px;
+    height: 49px;
+    top: 1px;
+    left: 9px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #cecece;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.android .overlap-wrapper {
+    position: absolute;
+    width: 332px;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+.android .text-wrapper-3 {
+    width: 99px;
+    height: 39px;
+    top: 281px;
+    left: 131px;
+    color: #6d5e5e;
+    font-size: 35px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 50px;
+    white-space: nowrap;
+}
+
+.android .group {
+    position: absolute;
+    width: 97px;
+    height: 40px;
+    top: 223px;
+    left: 131px;
+}
+
+.android .logo-wrapper {
+    height: 40px;
+}
+
+.android .logo {
+    position: relative;
+    width: 97px;
+    height: 40px;
+}
+
+.android .mask-group {
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    top: -4px;
+    left: -4px;
 }
