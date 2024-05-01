@@ -11,7 +11,9 @@
         <div class="view">
             <div class="overlap-group">
                 <div class="rectangle"></div>
-                <div class="text-wrapper">회원 로그인</div>
+                <div class="text-wrapper">
+                    <button class="transparent-button" onclick="moveToLoginPage()"> 회원 로그인</button> </div>
+
             </div>
         </div>
         <div class="view-2">
@@ -36,5 +38,15 @@
         </div>
     </div>
 </div>
+
+<script>
+    function moveToLoginPage() {
+        // 이동할 페이지의 URL을 설정합니다.
+        var url = "/main";
+        // 현재 페이지를 이동할 페이지로 변경합니다.
+        location.href = url;
+    }
+
+</script>
 </body>
 </html>

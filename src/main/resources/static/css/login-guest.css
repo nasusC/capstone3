@@ -147,3 +147,21 @@
     top: -4px;
     left: -4px;
 }
+.transparent-button {
+    background-color: transparent; /* 배경색을 투명하게 설정 */
+    border: none; /* 테두리 없음 */
+    color: #ffffff; /* 글자색 */
+    font-family: "Inter-SemiBold", Helvetica; /* 폰트 패밀리 */
+    font-weight: 600; /* 폰트 굵기 */
+    font-size: 20px; /* 글자 크기 */
+    width: 311px; /* 너비 */
+    height: 49px; /* 높이 */
+    position: absolute; /* 절대 위치 */
+    top: 1px; /* 위에서 1px 위치 */
+    left: 9px; /* 왼쪽에서 9px 위치 */
+    text-align: center; /* 가운데 정렬 */
+    line-height: 49px; /* 줄 높이 */
+    letter-spacing: 0; /* 글자 간격 */
+    white-space: nowrap; /* 줄 바꿈 방지 */
+    cursor: pointer; /* 마우스 커서를 포인터로 변경 */
+}

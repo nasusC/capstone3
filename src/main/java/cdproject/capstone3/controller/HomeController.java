@@ -24,5 +24,9 @@ public class HomeController {
     return null;
   }
 
+  @GetMapping("main")
+  public String main(){
+    return "main";
+  }
 
 }
