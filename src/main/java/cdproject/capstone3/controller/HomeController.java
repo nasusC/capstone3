@@ -29,4 +29,13 @@ public class HomeController {
     return "main";
   }
 
+  @GetMapping("hansick")
+  public String hansick(){
+    return "hansick";
+  }
+
+  @GetMapping("shop")
+  public String shop(){
+    return "shop";
+  }
 }
