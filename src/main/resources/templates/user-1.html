@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/css/android-u47-u4354u4450-u4364u4453u4540u4359u4457.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/css/u4368u4449u4527u4368u4460-u4363u4449u4523u4354u4450u4366u4449u4540.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../static/css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="android-u47-u4354u4450-u4364u4453u4540u4359u4457" />
+    <div class="container-center-horizontal">
+      <div class="android-u47-u4354u4450-u4364u4453u4540u4359u4457 screen">
+        <img class="ellipse-1" src="../static/img/ellipse-1.svg" alt="Ellipse 1" />
+        <a
+          href="user.html"
+          class="align-self-flex-end"
+          ><div class="text-140 valign-text-middle text-1">수정하기</div>
+        </a>
+        <div class="group-12">
+          <div class="overlap-group">
+            <div class="text-13 valign-text-middle text-1 inter-semi-bold-cape-cod-12px">닉네임</div>
+            <div class="rectangle-51"></div>
+            <div class="xxx valign-text-middle inter-semi-bold-black-12px">xxx</div>
+          </div>
+          <div class="overlap-group">
+            <div class="text-13 valign-text-middle text-1 inter-semi-bold-cape-cod-12px">전화번호</div>
+            <div class="rectangle-51"></div>
+            <div class="phone valign-text-middle inter-semi-bold-black-12px">010-1234-5678</div>
+          </div>
+          <div class="overlap-group">
+            <div class="text-13 valign-text-middle text-1 inter-semi-bold-cape-cod-12px">이메일</div>
+            <div class="rectangle-51"></div>
+            <div class="xxxgmailcom valign-text-middle inter-semi-bold-black-12px">xxx@gmail.com</div>
+          </div>
+          <div class="overlap-group-1">
+            <div class="text-13-1 valign-text-middle inter-semi-bold-cape-cod-12px">계좌</div>
+            <div class="text valign-text-middle inter-semi-bold-black-12px"></div>
+            <div class="x">
+              <div class="overlap-group-2">
+                <p class="oo-000-000000-000 valign-text-middle inter-semi-bold-black-12px">
+                  oo은행&nbsp;&nbsp;&nbsp;&nbsp;000-000000-000
+                </p>
+                <img class="image-5" src="../static/img/image-5-2@2x.png" alt="image 5" />
+              </div>
+            </div>
+          </div>
+          <div class="overlap-group-1">
+            <div class="text-13-1 valign-text-middle inter-semi-bold-cape-cod-12px">배송지</div>
+            <div class="text valign-text-middle inter-semi-bold-black-12px"></div>
+            <div class="x-1"><div class="oo-000-000000-000-1 valign-text-middle inter-semi-bold-black-12px"></div></div>
+          </div>
+        </div>
+        <div class="x-2">
+          <div class="text-134 valign-text-middle text-1">로그아웃</div>
+          <a
+            onclick="ShowOverlay('u4368u4449u4527u4368u4460-u4363u4449u4523u4354u4450u4366u4449u4540', 'animate-appear');"
+            ><div class="text-133 valign-text-middle text-1">탈퇴하기</div>
+          </a>
+        </div>
+        <div class="component-1"><img class="x-3" src="../static/img/---------------3@2x.png" alt="  /  " /></div>
+      </div>
+    </div>
+    <div id="overlay-u4368u4449u4527u4368u4460-u4363u4449u4523u4354u4450u4366u4449u4540" class="overlay-base">
+      <div class="u4368u4449u4527u4368u4460-u4363u4449u4523u4354u4450u4366u4449u4540 screen">
+        <div class="view">
+          <div class="text-187 valign-text-middle">
+            <span><span class="span0">이지오더</span><span class="span1">를 탈퇴하시겠습니까?</span> </span>
+          </div>
+          <div class="view-container">
+            <div class="view-1">
+              <div class="overlap-group overlap"><div class="text-188 valign-text-middle">탈퇴하기</div></div>
+            </div>
+            <a href="user-1.html">
+              <div class="view-2">
+                <div class="overlap-group1 overlap"><div class="text-189 valign-text-middle">취소하기</div></div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+
+      closeOutsideOverlay = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        const overlayElement = document.getElementById(overlay_id);
+        overlayElement.addEventListener(
+          `click`,
+          function (event) {
+            var overlay_id = `overlay-${overlay_slug}`;
+            var e = event || window.event;
+            var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+            if (e.target === overlayElement) {
+              HideOverlay(`${overlay_slug}`, "animate-disappear");
+            }
+          },
+          false
+        );
+      };
+
+      CloseOnOverlayClick = function (overlay_slug) {
+        var overlay_id = `overlay-${overlay_slug}`;
+        document.getElementById(overlay_id).addEventListener(
+          `click`,
+          function (event) {
+            {
+              var overlay_id = `overlay-${overlay_slug}`;
+              var e = event || window.event;
+              var overlayElement = document.getElementById(overlay_id);
+              var overlayContainer = overlayElement.getElementsByClassName(`${overlay_slug}`);
+              var clickedDiv = e.toElement || e.target;
+              var dismissButton = clickedDiv.parentElement.id == overlay_id;
+              var clickOutsideOverlay = false;
+              if (overlayContainer.length > 0) {
+                {
+                  clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+                }
+              }
+              if (dismissButton || clickOutsideOverlay) {
+                {
+                  HideOverlay(`${overlay_slug}`, "animate-disappear");
+                }
+              }
+            }
+          },
+          false
+        );
+      };
+    </script>
+    <script>
+      closeOutsideOverlay("u4352u4453u4357u4469u4361u4462u4523u46u46u46u46u46");
+    </script>
+    <script>
+      closeOutsideOverlay("u4352u4453u4357u4469u4361u4462u4523u46u46u46u46u46");
+    </script>
+  </body>
+</html>

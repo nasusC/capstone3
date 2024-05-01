@@ -1,0 +1,11 @@
+thymeleaf:
+  cache: false
+  check-template-location: false
+  enabled: true
+  prefix: classpath:/static/templates
+  suffix: .html
+  view-names: /html/*
+
+  spring:
+    resources:
+      static-locations: classpath:/static/

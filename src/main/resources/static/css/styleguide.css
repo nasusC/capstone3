@@ -1,0 +1,48 @@
+:root { 
+  --black: #000000;
+  --cape-cod: #404040;
+  --celeste: #cecece;
+  --sonic-silver: #717171;
+  --white: #ffffff;
+ 
+  --font-size-l: 13px;
+  --font-size-m: 12px;
+  --font-size-s: 11px;
+  --font-size-xl: 16px;
+  --font-size-xs: 10px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 20px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-semi-bold-cape-cod-18px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-cape-cod-12px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-sonic-silver-10px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}

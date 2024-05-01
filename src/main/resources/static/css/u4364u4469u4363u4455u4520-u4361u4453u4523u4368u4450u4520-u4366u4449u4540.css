@@ -1,0 +1,134 @@
+/* screen - u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 */
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 {
+  align-items: flex-start;
+  background-color: #40404080;
+  display: flex;
+  width: 360px;
+}
+
+#overlay-u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 {
+  align-items: center;
+  background-color: #40404080;
+  justify-content: flex-end;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .view {
+  align-items: flex-end;
+  display: flex;
+  height: 552px;
+  width: 360px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .overlap-group17 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 0px -4px 15px #00000040;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: 540px;
+  padding: 16px;
+  width: 360px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .overlap-group18 {
+  height: 38px;
+  position: relative;
+  width: 327px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .vector-3 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 36px;
+  width: 324px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .text-232 {
+  color: var(--cape-cod);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-weight: 900;
+  height: 37px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 327px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .union {
+  cursor: pointer;
+  height: 22px;
+  left: 298px;
+  position: absolute;
+  top: 9px;
+  width: 22px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .view-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 8px;
+  height: 437px;
+  min-width: 312px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .overlap-group-container {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 0;
+  min-height: 437px;
+  width: 152px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--celeste);
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+  min-width: 152px;
+  padding: 1.3px 4px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .text-2 {
+  height: 33px;
+  text-align: center;
+  width: 142px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--celeste);
+  border-radius: 5px;
+  display: flex;
+  height: 39px;
+  min-width: 152px;
+  padding: 2.5px 4px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 387px;
+  width: 152px;
+}
+
+.u4364u4469u4363u4455u4520-u4361u4453u4523u4368u4450u4520-u4366u4449u4540 .text {
+  letter-spacing: 0;
+  line-height: 50px;
+  white-space: nowrap;
+}
