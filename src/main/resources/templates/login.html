@@ -1,35 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="/css/globals.css" />
     <link rel="stylesheet" href="/css/login-guest.css" />
+    <style>
+        .input-wrapper {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .input-wrapper input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid #ccc;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .input-wrapper label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px;
+            font-size: 16px;
+            color: #999;
+            pointer-events: none;
+            transition: 0.2s;
+        }
+
+        .input-wrapper input:focus ~ label,
+        .input-wrapper input:valid ~ label {
+            top: -20px;
+            left: 0;
+            color: #333;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
 <div class="android">
     <div class="div">
-        <div class="view">
-            <div class="overlap-group">
-                <div class="rectangle"></div>
-                <div class="text-wrapper">
-                    <button class="transparent-button" onclick="moveToLoginPage()"> 회원 로그인</button> </div>
-
-            </div>
-        </div>
-        <div class="view-2">
-            <div class="overlap-group-wrapper">
+        <form id="loginForm" action="/main" method="GET">
+            <div class="view">
                 <div class="overlap-group">
-                    <div class="rectangle-2"></div>
-                    <div class="text-wrapper-2">비밀번호</div>
+                    <div class="rectangle"></div>
+                    <div class="text-wrapper">
+                        <button class="transparent-button" type="submit">회원 로그인</button>
+                    </div>
                 </div>
             </div>
-            <div class="overlap-wrapper">
-                <div class="overlap-group">
-                    <div class="rectangle-2"></div>
-                    <div class="text-wrapper-2">아이디</div>
+            <div class="view-2">
+                <div class="overlap-group-wrapper">
+                    <div class="overlap-group">
+                        <div class="rectangle-2"></div>
+                        <div class="text-wrapper-2">
+                            <div class="input-wrapper">
+                                <input type="password" name="password" id="password" required>
+                                <label for="password">비밀번호</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlap-wrapper">
+                    <div class="overlap-group">
+                        <div class="rectangle-2"></div>
+                        <div class="text-wrapper-2">
+                            <div class="input-wrapper">
+                                <input type="text" name="username" id="username" required>
+                                <label for="username">아이디</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
         <div class="text-wrapper-3">로그인</div>
         <div class="group">
             <div class="logo-wrapper">
@@ -38,15 +84,5 @@
         </div>
     </div>
 </div>
-
-<script>
-    function moveToLoginPage() {
-        // 이동할 페이지의 URL을 설정합니다.
-        var url = "/main";
-        // 현재 페이지를 이동할 페이지로 변경합니다.
-        location.href = url;
-    }
-
-</script>
 </body>
 </html>
