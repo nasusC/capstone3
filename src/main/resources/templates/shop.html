@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="view-3">
-          <div class="overlap">
+          <div class="overlap" onclick="moveToPage2()">
             <img class="rectangle" src="/img/rectangle-18-5@2x.png" />
             <div class="text-wrapper">빨강 순대국밥</div>
             <div class="overlap-group-wrapper">
@@ -151,7 +151,7 @@
 
             <div class="text-wrapper-4">국밥생각</div>
           </div>
-          <div class="image-wrapper"><img class="image-2" src="/img/image-2.png" /></div>
+          <div class="image-wrapper">   <img class="image-3" src="/img/rectangle-27.png" /></div>
         </div>
       </div>
     </div>
@@ -161,9 +161,17 @@
         <div class="overlap-group-2"><div class="text-wrapper-11">선택하기</div></div>
       </div>
       </div>
-      <img class="image-3" src="/img/image-4.png" />
+
     </div>
   </div>
-</div>
+
+<script>
+  function moveToPage2() {
+    // 이동할 페이지의 URL을 설정합니다.
+    var url = "/order-page";
+    // 현재 페이지를 이동할 페이지로 변경합니다.
+    location.href = url;
+  }
+</script>
 </body>
 </html>

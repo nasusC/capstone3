@@ -15,11 +15,11 @@ public class HomeController {
     return "index";
   }
 
-  @GetMapping("login")
+  @GetMapping("/login")
   public String login(){
     return "login";
   }
-  @PostMapping("login")
+  @PostMapping("/login")
   public String logincheck(@RequestParam String userId){
     return null;
   }

@@ -21,12 +21,28 @@
                 <img class="rectangle" src="/img/rectangle-6-1.svg" />
                 <div class="group-2">
                     <img class="image" src="/img/image-2.png" />
-                    <div class="text-wrapper-4">카카오로 로그인하기</div>
+                    <button class="transparent-button" onclick="moveToPage()">
+                        <div class="text-wrapper-4" >카카오로 로그인하기</div>
+                    </button>
+
                 </div>
             </div>
         </div>
         <div class="logo"><img class="mask-group" src="/img/mask-group.png" /></div>
     </div>
+
+<!--    https://accounts.kakao.com/login/?continue=https%3A%2F%2Fdevelopers.kakao.com%2Flogin%3Fcontinue%3Dhttps%253A%252F%252Fdevelopers.kakao.com%252Fdocs%252Flatest%252Fko%252Fkakaologin%252Frest-api&lang=ko#login-->
 </div>
+
+<script>
+    function moveToPage() {
+        // 이동할 페이지의 URL을 설정합니다.
+        var url = "https://accounts.kakao.com/login/?continue=https%3A%2F%2Fdevelopers.kakao.com%2Flogin%3Fcontinue%3Dhttps%253A%252F%252Fdevelopers.kakao.com%252Fdocs%252Flatest%252Fko%252Fkakaologin%252Frest-api&lang=ko#login";
+        // 현재 페이지를 이동할 페이지로 변경합니다.
+        location.href = url;
+    }
+
+</script>
+
 </body>
 </html>
